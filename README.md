@@ -11,7 +11,7 @@
 | U             | const char32_t[] | unescaped or escaped | C++ 11             |
 | prefix R      | type as prefix   | raw                  | C++ 11             |
 
-unescaped = Any valid character except the double-quote (") , backslash (\\) , or new-line character
+unescaped = Any valid character except the double-quote ( " ) , backslash ( \\ ) , or new-line character
 
 
 
@@ -28,7 +28,7 @@ unescaped = Any valid character except the double-quote (") , backslash (\\) , o
 |\r	|	carriage return	| byte 0x0d in ASCII encoding
 |\t	|	horizontal tab	| byte 0x09 in ASCII encoding
 |\v	|	vertical tab	| byte 0x0b in ASCII encoding
-|\nnn	|	arbitrary octal value	byte nnn
-|\xnn	|	arbitrary hexadecimal value	byte nn
-|\unnnn	|	universal character name (arbitrary Unicode value) may result in several characters	code point U+nnnn
-|\Unnnnnnnn	|	universal character name (arbitrary Unicode value) may result in several characters	code point U+nnnnnnnn
+|\nnn	|	arbitrary octal value	| byte nnn
+|\xnn	|	arbitrary hexadecimal value	| byte nn
+|\unnnn	|	universal character name (arbitrary Unicode value) may result in several characters	| code point U+nnnn
+|\Unnnnnnnn	|	universal character name (arbitrary Unicode value) may result in several characters	| code point U+nnnnnnnn
