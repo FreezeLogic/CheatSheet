@@ -1,7 +1,7 @@
-C++  CheatSheet
+# C++  CheatSheet
 
 
-String literal table
+## String literal table
 
 | Literal name  | Character types  | String content       | Minimum C++ version|
 | ------------- | ---------------- | -------------------- | ------------------ |
