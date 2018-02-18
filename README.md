@@ -11,7 +11,7 @@
 | U             | const char32_t[] | unescaped or escaped | C++ 11             |
 | prefix R      | type as prefix   | raw                  | C++ 11             |
 
-unescaped = Any valid character except the double-quote ", backslash \\, or new-line character
+unescaped = Any valid character except the double-quote (") , backslash (\\) , or new-line character
 
 
 
