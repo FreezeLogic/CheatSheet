@@ -9,7 +9,8 @@
 ## The second largest heading
 ###### The smallest heading
 <br/>
-## Basic formating   
+## Basic formating  
+
 Style           |	Syntax         | Keyboard shortcut   | Example                                      | Output
 --------------- |--------------- | ------------------- | -------------------------------------------- | -------
 Bold            | ** ** or __ __ | command/control + b | \*\*This is bold text\*\*                    | **This is bold text** 
