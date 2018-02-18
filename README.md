@@ -11,10 +11,10 @@
 | U             | const char32_t[] | unescaped or escaped | C++ 11
 | *prefix* R    | type as prefix   | raw                  | C++ 11
 
-unescaped - Any valid character except the double-quote ( " ) , backslash ( \\ ) , or new-line character
-escaped	 -	Any valid escaped character (See Escape sequences table)
-raw	      -	Any character sequence, except that it must not contain the closing sequence )delimiter"
-prefix	-	One of L, u8, u, U
+unescaped - Any valid character except the double-quote ( " ) , backslash ( \\ ) , or new-line character  
+escaped	 -	Any valid escaped character (See Escape sequences table)  
+raw	      -	Any character sequence, except that it must not contain the closing sequence )delimiter"  
+prefix	-	One of L, u8, u, U  
 
 
 |Escape sequence|	Description                	| Representation 
@@ -35,4 +35,4 @@ prefix	-	One of L, u8, u, U
 |\unnnn        	|	universal character name*  	| code point U+nnnn
 |\Unnnnnnnn	    |	universal character name*  	| code point U+nnnnnnnn
 
-* universal character name content arbitrary Unicode value may result in several characters
+* universal character name content arbitrary Unicode value may result in several characters  
