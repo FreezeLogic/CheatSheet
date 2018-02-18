@@ -9,6 +9,7 @@
 ## The second largest heading
 ###### The smallest heading
 <br/>
+
 ## Basic formating  
 
 Style           |	Syntax         | Keyboard shortcut   | Example                                      | Output
