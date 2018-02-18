@@ -1,5 +1,14 @@
- # GitHub *.md syntax  
-  
+# GitHub *.md syntax  
+ 
+## Headings
+\# The largest heading <br/>
+\#\# The second largest heading <br/>
+\#\#\#\#\#\# The smallest heading <br/>
+
+# The largest heading
+## The second largest heading
+###### The smallest heading
+<br/>
 ## Basic formating   
 Style           |	Syntax         | Keyboard shortcut   | Example                                      | Output
 --------------- |--------------- | ------------------- | -------------------------------------------- | -------
