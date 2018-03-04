@@ -18,7 +18,7 @@ Bold               | ** ** or __ __ | command/control + b | \*\*This is bold tex
 Italic             | * * or _ _     | command/control + i | \*This text is italicized\*                  | *This text is italicized*
 Strikethrough      | ~~ ~~          |                     | \~\~This was mistaken text\~\~               | ~~This was mistaken text~~ 
 Bold and italic    | ** ** and _ _  |                     | \*\*This text is \_extremely\_ important\*\* | **This text is _extremely_ important**
-Add more spaces    | \&nbsp\;       |                     |here \&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\; 4 space | here &nbsp;&nbsp;&nbsp;&nbsp;  4 space
+Add more spaces    | \&nbsp\;       |                     |here\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;4 space | here&nbsp;&nbsp;&nbsp;&nbsp;4 space
 Line break         | two spaces or \<br\/\> tag |         | This is two \<br\/\> line text               | This is two <br/> line text
 Fenced code blocks\*| \`\`\` \`\`\`  |                     | \`\`\` var x = 1;\`\`\`                      |  ``` var x = 1;```
 
