@@ -19,4 +19,10 @@ fmt"
 )
 ```
 
-0
+Get variable type
+```Go 
+import "fmt"
+import "reflect"
+// Print type of MyVar variable
+fmt.Println(reflect.TypeOf(MyVar))
+```
