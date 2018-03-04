@@ -1,6 +1,12 @@
 ## Console commans
 Import library<br/>
-```go get github.com/User_name/project_name/package_name```
+```Shell
+get github.com/User_name/project_name/package_name
+```
+Run program<br/>
+```Shell
+get github.com/User_name/project_name/package_name
+```
 
 ## Golang
 Import package:<br/>
@@ -24,7 +30,7 @@ import "reflect"
 fmt.Println(reflect.TypeOf(MyVar))
 ```
 
-Logical operators
+Logical operators<br/>
 AND operator<br/>
 ```Go 
 true  && true	true
