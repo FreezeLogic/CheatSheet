@@ -23,12 +23,15 @@ Line break         | two spaces or \<br\/\> tag |         | This is two \<br\/\>
 Fenced code blocks\*| \`\`\` \`\`\`  |                     | \`\`\` var x = 1;\`\`\`                      |  ``` var x = 1;```
 
 \*Code blocks highlighting example <br/>
+Code must be placed on the new line after first \`\`\` tag, and after code end close tag \`\`\` must be on new line <br/>.
+This code
 \`\`\`Go <br/>
 import "fmt" <br/>
 func main() { <br/>
 &nbsp;&nbsp; fmt.Println("Hello, 世界") <br/>
-}\`\`\` <br/>
-formated as <br/>
+}
+\`\`\` <br/>
+now formated as <br/>
 ```go
 import "fmt"
 func main() {
