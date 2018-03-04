@@ -4,16 +4,16 @@ Import library<br/>
 
 ## Golang
 Import package:<br/>
-placed in *pckg_name* directory <br/>
-```import "./pckg_name"```
-
-```import "github.com/User_name/project_name/package_name"```
+placed in *pckg_name* directory<br/>
+```import "./pckg_name"```<br/>
+imported from internet<br/>
+```import "github.com/User_name/project_name/package_name"```<br/>
 
 Import many packages  
 ```Go 
 import  (
-&nbsp; "./package_name"  
-&nbsp; "fmt"
+    "./package_name"
+    "fmt"
 )
 ```
 Get variable type
@@ -25,29 +25,21 @@ fmt.Println(reflect.TypeOf(MyVar))
 ```
 
 Logical operators
-
-|   Expression  |  AND  |  OR   |
-| ------------- |-------| ------|
-| true && true  | true  | true  |
-| true && false | false | true  |
-| false && true | false | true  |
-| false && false| false | false |
- 
-AND operator
+AND operator<br/>
 ```Go 
-true && true	true
-true && false	false
+true  && true	true
+true  && false	false
 false && true	false
 false && false	false
 ```
-OR operator
+OR operator<br/>
 ```Go 
-true || true	true
-true || false	true
+true  || true	true
+true  || false	true
 false || true	true
 false || false	false
 ```
-NOT operator
+NOT operator<br/>
 ```Go 
 !true	false
 !false	true
