@@ -30,7 +30,7 @@ import "reflect"
 fmt.Println(reflect.TypeOf(MyVar))
 ```
 
-Logical operators<br/>
+Logical operators:<br/>
 AND operator<br/>
 ```Go 
 true  && true	true
