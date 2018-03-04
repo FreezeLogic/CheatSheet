@@ -38,3 +38,4 @@ func main() {
     fmt.Println("Hello, 世界")
 }
 ```
+List of syntax highlighting support in YAML file https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
