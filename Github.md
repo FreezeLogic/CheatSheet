@@ -18,6 +18,20 @@ Bold               | ** ** or __ __ | command/control + b | \*\*This is bold tex
 Italic             | * * or _ _     | command/control + i | \*This text is italicized\*                  | *This text is italicized*
 Strikethrough      | ~~ ~~          |                     | \~\~This was mistaken text\~\~               | ~~This was mistaken text~~ 
 Bold and italic    | ** ** and _ _  |                     | \*\*This text is \_extremely\_ important\*\* | **This text is _extremely_ important**
+Add more spaces    | \&nbsp\;       |                     | this text have 4 \&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\; space | this text have 4 &nbsp;&nbsp;&nbsp;&nbsp; space
 Line break         | two spaces or \<br\/\> tag |         | This is two \<br\/\> line text               | This is two <br/> line text
-Fenced code blocks | \`\`\` \`\`\`  |                     | \`\`\` var x = 1;\`\`\`                      |  ``` var x = 1;```
-Code highlighting  | \`\`\`Go <br/>\`\`\` |               | \`\`\`Go <br/> import "fmt" <br/> func main() { <br/> fmt.Println("Hello, 世界") <br/> }\`\`\` |  ```Go import "fmt" func main() { fmt.Println("Hello, 世界") }```
+Fenced code blocks\*| \`\`\` \`\`\`  |                     | \`\`\` var x = 1;\`\`\`                      |  ``` var x = 1;```
+
+\*Code blocks highlighting example <br/>
+\`\`\`Go <br/>
+import "fmt" <br/>
+func main() { <br/>
+&nbsp;&nbsp; fmt.Println("Hello, 世界") <br/>
+}\`\`\` <br/>
+formated as <br/>
+```go
+import "fmt"
+func main() {
+    fmt.Println("Hello, 世界")
+}
+```
