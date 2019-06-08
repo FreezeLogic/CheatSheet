@@ -1,11 +1,11 @@
-## Console commans
+## Console commands
 Import library<br/>
 ```Shell
-get github.com/User_name/project_name/package_name
+go get github.com/User_name/project_name/package_name
 ```
 Run program<br/>
 ```Shell
-get github.com/User_name/project_name/package_name
+go get github.com/User_name/project_name/package_name
 ```
 
 ## Golang
